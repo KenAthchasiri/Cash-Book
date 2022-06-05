@@ -1,0 +1,63 @@
+label{
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+input {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+input:focus{
+    outline: none;
+}
+.btn{
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.form-type{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.form-type button{
+    width: 220px;
+    height: 30px;
+}
+
+.type-in{
+    
+    border-radius: 5px;
+}
+
+.type-out{
+    
+    border-radius: 5px;
+}
+
+.type-in:focus{
+    background-color: rgb(165, 252, 78);
+    border: 3px solid rgb(103, 207, 0);
+    border-radius: 5px;
+    
+}
+
+.type-out:focus{
+    background-color: rgb(254, 104, 104);
+    border: 3px solid rgb(225, 49, 49);
+    border-radius: 5px;
+}
